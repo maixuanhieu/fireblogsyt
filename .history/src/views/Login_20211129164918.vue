@@ -1,0 +1,22 @@
+<template>
+  <div class="form-wrap">
+      <form class="login">
+          <p class="login-register">
+              Don't have an account?
+              <router-link class="router-link" :to="{name: 'Register'}"></router-link>
+          </p>
+
+          <h2></h2>
+      </form>
+  </div>
+</template>
+
+<script>
+export default {
+    name: "Login",
+};
+</script>
+
+<style lang="scss">
+
+</style>
