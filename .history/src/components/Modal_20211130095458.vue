@@ -1,0 +1,30 @@
+<template>
+    <div class="modal">
+        <div class="modal-content">
+            <p>{{ this.modalMessage }}</p>
+            <button @click="closeModal">Close</button>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+    props: ["modalMessage"],
+    methods: {
+        closeModal(){
+            this.$emit("close-modal");
+        },
+    },
+};
+</script>
+
+<style lang="scss" scoped>
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+    position: absolute;
+    width: ;
+}
+</style>
