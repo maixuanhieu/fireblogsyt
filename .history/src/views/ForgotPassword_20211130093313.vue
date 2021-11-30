@@ -33,13 +33,7 @@ export default {
   position: relative;
   .form-wrap{
     .reset{
-      h2{
-        margin-bottom: 8px;
-      }
-      p{
-        text-align: center;
-        margin-bottom: 32px;
-      }
+      h2
     }
   }
 }

@@ -57,13 +57,7 @@ export default {
     user,
   },
   data(){
-    return {
-      firstName: null,
-      lastName: null,
-      username: null,
-      email: null,
-      password: null,
-    };
+    return
   },
 };
 </script>

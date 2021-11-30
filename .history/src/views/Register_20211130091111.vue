@@ -8,7 +8,7 @@
         >
       </p>
 
-      <h2>Create Your FireBlogs Account</h2>
+      <h2>Create Your FireBlogs</h2>
       <div class="inputs">
         <div class="input">
           <input type="text" placeholder="First Name" v-model="firstName" />
@@ -56,24 +56,8 @@ export default {
     password,
     user,
   },
-  data(){
-    return {
-      firstName: null,
-      lastName: null,
-      username: null,
-      email: null,
-      password: null,
-    };
-  },
 };
 </script>
 
-<style lang="scss" scoped>
-
-.register{
-  h2{
-    max-width: 350px;
-  }
-}
-
+<style>
 </style>

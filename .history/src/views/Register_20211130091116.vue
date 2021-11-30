@@ -56,24 +56,8 @@ export default {
     password,
     user,
   },
-  data(){
-    return {
-      firstName: null,
-      lastName: null,
-      username: null,
-      email: null,
-      password: null,
-    };
-  },
 };
 </script>
 
-<style lang="scss" scoped>
-
-.register{
-  h2{
-    max-width: 350px;
-  }
-}
-
+<style>
 </style>

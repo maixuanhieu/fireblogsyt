@@ -119,7 +119,7 @@ export default {
           width: 12px;
           position: absolute;
           left: 6px;
-
+          
         }
       }
     }
@@ -136,31 +136,6 @@ export default {
       &:hover {
         border-color: #303030;
       }
-    }
-
-    .angle{
-      display: none;
-      position: absolute;
-      background-color: #fff;
-      transform: rotateZ(3deg);
-      width: 60px;
-      right: -30px;
-      height: 101%;
-      @media(min-width: 900px){
-        display: initial;
-      }
-    }
-  }
-
-  .background{
-    display: none;
-    flex: 2;
-    background-size: cover;
-    background-image: url("../assets/background.png");
-    width: 100%;
-    height: 100%;
-    @media (min-width: 900px){
-      display: initial;
     }
   }
 }

@@ -152,16 +152,6 @@ export default {
     }
   }
 
-  .background{
-    display: none;
-    flex: 2;
-    background-size: cover;
-    background-image: url("../assets/background.png");
-    width: 100%;
-    height: 100%;
-    @media (min-width: 900px){
-      display: initial;
-    }
-  }
+  .background
 }
 </style>

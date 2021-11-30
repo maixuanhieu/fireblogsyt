@@ -61,9 +61,8 @@ export default {
       firstName: null,
       lastName: null,
       username: null,
-      email: null,
-      password: null,
-    };
+      
+    }
   },
 };
 </script>

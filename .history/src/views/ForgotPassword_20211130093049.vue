@@ -13,34 +13,17 @@
         <button>Reset</button>
         <div class="angle"></div>
       </form>
-      <div class="background"></div>
+      .background
     </div>
   </div>
 </template>
 
 <script>
-import email from "../assets/Icons/envelope-regular.svg";
 export default {
   name: "ForgotPassword",
-  components:{
-    email,
-  },
 }
 </script>
 
 <style lang="scss" scoped>
-.reset-password{
-  position: relative;
-  .form-wrap{
-    .reset{
-      h2{
-        margin-bottom: 8px;
-      }
-      p{
-        text-align: center;
-        margin-bottom: 32px;
-      }
-    }
-  }
-}
+
 </style>
