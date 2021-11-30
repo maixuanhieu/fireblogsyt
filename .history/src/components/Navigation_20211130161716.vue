@@ -218,22 +218,7 @@ header {
                         padding: 15px;
 
                         .option{
-                            text-decoration: none;
-                            color: #fff;
-                            display: flex;
-                            align-items: center;
-                            margin-bottom: 12px;
-
-                            .icon{
-                                width: 18px;
-                                height: auto;
-
-                            }
-
-                            p{
-                                font-size: 14px;
-                                margin-left: 12px;
-                            }
+                            text-decoration: ;
                         }
                     }
                 }

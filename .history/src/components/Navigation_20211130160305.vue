@@ -200,40 +200,7 @@ header {
                         }
 
                         .right{
-                            flex: 1;
-                            margin-left: 24px;
-
-                            p:nth-child(1){
-                                font-size: 14px;
-                            }
-
-                            p:nth-child(2),
-                            p:nth-child(3){
-                                font-size: 12px;
-                            }
-                        }
-                    }
-
-                    .options{
-                        padding: 15px;
-
-                        .option{
-                            text-decoration: none;
-                            color: #fff;
-                            display: flex;
-                            align-items: center;
-                            margin-bottom: 12px;
-
-                            .icon{
-                                width: 18px;
-                                height: auto;
-
-                            }
-
-                            p{
-                                font-size: 14px;
-                                margin-left: 12px;
-                            }
+                            
                         }
                     }
                 }

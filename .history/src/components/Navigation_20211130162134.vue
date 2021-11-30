@@ -226,13 +226,6 @@ header {
 
                             .icon{
                                 width: 18px;
-                                height: auto;
-
-                            }
-
-                            p{
-                                font-size: 14px;
-                                margin-left: 12px;
                             }
                         }
                     }

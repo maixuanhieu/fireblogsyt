@@ -185,56 +185,7 @@ header {
                         display: flex;
                         align-items: center;
                         padding: 15px;
-                        border-bottom: 1px solid #fff;
-
-                        .initials{
-                            position: initial;
-                            width: 40px;
-                            height: 40px;
-                            background-color: #fff;
-                            color: #303030;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            border-radius: 50%;
-                        }
-
-                        .right{
-                            flex: 1;
-                            margin-left: 24px;
-
-                            p:nth-child(1){
-                                font-size: 14px;
-                            }
-
-                            p:nth-child(2),
-                            p:nth-child(3){
-                                font-size: 12px;
-                            }
-                        }
-                    }
-
-                    .options{
-                        padding: 15px;
-
-                        .option{
-                            text-decoration: none;
-                            color: #fff;
-                            display: flex;
-                            align-items: center;
-                            margin-bottom: 12px;
-
-                            .icon{
-                                width: 18px;
-                                height: auto;
-
-                            }
-
-                            p{
-                                font-size: 14px;
-                                margin-left: 12px;
-                            }
-                        }
+                        border-bottom: 1px s
                     }
                 }
             }

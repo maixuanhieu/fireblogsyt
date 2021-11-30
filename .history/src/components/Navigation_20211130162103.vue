@@ -223,17 +223,6 @@ header {
                             display: flex;
                             align-items: center;
                             margin-bottom: 12px;
-
-                            .icon{
-                                width: 18px;
-                                height: auto;
-
-                            }
-
-                            p{
-                                font-size: 14px;
-                                margin-left: 12px;
-                            }
                         }
                     }
                 }

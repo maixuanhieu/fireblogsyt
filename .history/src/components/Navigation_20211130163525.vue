@@ -229,11 +229,7 @@ header {
                                 height: auto;
 
                             }
-
-                            p{
-                                font-size: 14px;
-                                margin-left: 12px;
-                            }
+                            
                         }
                     }
                 }
